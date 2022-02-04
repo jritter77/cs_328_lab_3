@@ -1,0 +1,67 @@
+/* Jake Ritter and Karen Vargas */
+
+body {
+    font-family: sans-serif;
+}
+
+img {
+    width: 480px;
+}
+
+form {
+    display: flex;
+    color: darkorchid;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+
+#radio_btns {
+    display: flex;
+    justify-content: space-around;
+}
+
+#checkboxes {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+}
+
+table {
+    border: 2px solid black;
+}
+
+td {
+    height: 240px;
+    width: 480px;
+    border: 1px solid black;
+}
+
+td p {
+    width: 100%;
+    font-size: large;
+    text-align: center;
+    background-color: rgb(246, 191, 203);
+}
+
+a {
+    display: block;
+    text-align: center;
+}
+
+
+input[type="submit"] {
+    width: 50%;
+    margin: 32px;
+}
+
+form > p {
+    text-align: left;
+    margin-top: 16px;
+}
+
+div label {
+    display: block;
+}
